@@ -1,0 +1,18 @@
+/*@import url('https://fonts.googleapis.com/css?family=Jura|Play:400,700&subset=cyrillic');*/
+body{
+	margin: 0;
+	font: 14pt Consolas, Courier;
+	background-color: #555;
+	color: #fff;
+}
+.input-form{
+	margin: 200px;
+}
+.input-form input{
+	background-color: #444;
+	text-align: center;
+	border: none;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+}
