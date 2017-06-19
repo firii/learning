@@ -22,10 +22,15 @@ function showString(elem) {
   elem.textContent = arr.join(' ');
 }
 
-function checkInput(src, inpt) {
-
-}
-
 input.oninput = function () {
-  checkInput(textScreen, input);
+  var match = false;
+  var indx = 0;
+  do {
+    if (input.textContent[indx] == textScreen.textContent[indx]) {
+      match = true;
+      indx++;
+    } else {
+      //needs something
+    }
+  } while (match);
 };
